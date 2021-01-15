@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="Images/logo.svg" alt="23andfour logo" class=logo>
+
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="Images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop"><img src="Images/exit.svg" alt="Exit Menu"></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <img src="Images/server.svg" alt="Server Graphics" class="server">
+            <h1>Web hosting for the modern era</h1>
+            <p class="subhead">Go serverless and pay only for what you use</p>
+            <img src="Images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+        </section>
+    </div>
+
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+
+                <li>
+                    <img src="Images/icon-1.svg" alt="Calender icon">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit vero, quibusdam ad ex aliquid
+                        quo necessitatibus nesciunt quasi culpa odit ut earum, tempora facilis molestiae iste? Aperiam
+                        esse quia dolore. </p>
+                </li>
+                <li>
+                    <img src="Images/icon-2.svg" alt="Walet icon">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur sed recusandae temporibus vel,
+                        placeat ex sunt voluptate similique, unde nobis saepe iusto autem possimus amet deserunt
+                        architecto perferendis earum! Nobis.</p>
+                </li>
+                <li>
+                    <img src="Images/icon-3.svg" alt="Phone icon">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, distinctio? Ducimus
+                        laboriosam, sint molestias aliquid animi alias quidem similique nulla quo vitae eius atque
+                        magnam? Voluptatibus iste repellendus eos ad!</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="gray-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="Images/user1.png" alt="User Testimonial picture">
+                        <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione repellat officiis
+                            commodi soluta dolor neque ea dolores dolorem fuga est nesciunt minima reprehenderit
+                            quaerat, blanditiis tenetur et, similique id qui?</blockquote>
+                        <figcaption>- jane doe </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="Images/user2.png" alt="User Testimonial picture">
+                        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, labore id alias nulla
+                            repellat, magnam veritatis iure blanditiis autem est soluta, assumenda cumque doloribus
+                            nobis esse? Veritatis commodi ipsam veniam.</blockquote>
+                        <figcaption>- john doe</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Start your free trial now!</h2>
+        <a href="#" class="cta">Get started!</a>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#">
+                    <img src="Images/logo-white.svg" class="logo" alt="Logo">
+                </a>
+                <p class="adress">Melrose place, 90210 <br>USA</p>
+                <ul class=footer-links>
+                    <li><a href="#">Terms of service</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div class="blackborder">
+    </div>
+
+
+    <script>
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function () {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        })
+
+        exit.addEventListener('click', function () {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        })
+    </script>
+
+</body>
+
+</html>
